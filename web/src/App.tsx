@@ -1,25 +1,13 @@
-import React from 'react';
-
-interface TitleProps {
-  text: string;
-}
-
-function Title (props: TitleProps) {
-  return (
-    <div className="App">
-     <h1>{props.text}</h1>
-    </div>
-  );
-}
+import React from "react";
+import Routes from "./routes";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
   return (
-    <div className="App">
-     <Title text="Titulo 1" />
-     <Title text="Titulo 2" />
-     <Title text="Titulo 3" />
-     <Title text="Titulo 4" />
-    </div>
+    <>
+      <GlobalStyles />
+      <Routes />
+    </>
   );
 }
 
