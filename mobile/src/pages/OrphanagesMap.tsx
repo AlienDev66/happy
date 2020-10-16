@@ -38,7 +38,7 @@ export default function OrphanageMap() {
           }}>
           <Callout tooltip onPress={handleNavigateToOrphanageDetails}>
             <View style={styles.calloutContainer}>
-              <Text style={styles.calloutText}>Lar das meninas</Text>
+              <Text style={styles.calloutText}>Lar Kuzola</Text>
             </View>
           </Callout>
         </Marker>
